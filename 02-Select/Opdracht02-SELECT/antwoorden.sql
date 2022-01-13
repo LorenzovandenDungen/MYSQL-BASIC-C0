@@ -1,7 +1,7 @@
 -- Opdracht 1 - voorbeeld
 SELECT * FROM jaar2016
 -- Opdracht 2 
-SELECT * FROM `jaar2015` WHERE 1
+SELECT * FROM jaar2016
 -- Opdracht 3
 SELECT `score` FROM jaar2016
 -- Opdracht 4
