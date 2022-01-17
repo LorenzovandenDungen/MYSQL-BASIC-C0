@@ -1,7 +1,7 @@
 -- Opdracht 1 
 SELECT MAX(wage) as hoogste_loon_speler_fc_utrecht FROM players WHERE club = "FC UTRECHT";
 -- Opdracht 2 
-select AVG(wage) AS gemiddelde_inkomen FROM players
+select ROUND(AVG(wage)) AS gemiddelde_inkomen_van_alle_spelers FROM players
 -- Opdracht 3
 SELECT sum(wage) AS som_loon_fc_groningen FROM players WHERE club = "FC groningen"
 -- Opdracht 4
@@ -11,7 +11,7 @@ SELECT avg(wage) as gemiddelde_inkomen_van_Nederlands_nationaliteit FROM players
 -- Opdracht 6 
 SELECT avg(wage) AS loon_gemiddeld_speler_onder_20_jaar FROM players WHERE age < 20
 -- Opdracht 7 
-SELECT avg(wage) AS loon_gemiddeld_speler_onder_20_jaar FROM players WHERE age > 20
+SELECT avg(wage) AS loon_gemiddeld_speler_boven_20_jaar FROM players WHERE age > 20
 -- Opdracht 8
 SELECT SUM(value) AS chelsea_waarde FROM players WHERE club = "Chelsea"
 -- Opdracht 9
