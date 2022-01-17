@@ -1,5 +1,5 @@
 -- Opdracht 1 
-
+SELECT MAX(wage) as hoogste_loon_speler_fc_utrecht FROM players WHERE club = "FC UTRECHT"
 -- Opdracht 2 
 select AVG(wage) AS gemiddelde_inkomen FROM players
 -- Opdracht 3
