@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 -- Opdracht 1 
 SELECT * FROM jaar2015 WHERE `rank`=7
 -- Opdracht 2 
@@ -38,5 +38,4 @@ SELECT country, region FROM jaar2016 WHERE rank<=5
 -- Opdracht 9
 SELECT score FROM jaar2015 WHERE country="Ireland"
 -- Opdracht 10
->>>>>>> d248b3aeab5c7ac1b1efefd8bfd31273f3f22b55
 SELECT country FROM jaar2016 WHERE region = "Latin America and Caribbean"
